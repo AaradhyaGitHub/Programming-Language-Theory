@@ -1,0 +1,27 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+.idea/
+*.iml
+
+# ===== Haskell =====
+dist/
+dist-newstyle/
+.stack-work/
+*.hi
+*.o
+
+# ===== Prolog =====
+*.pl~
+*.swp
+
+# ===== Editors =====
+.vscode/
