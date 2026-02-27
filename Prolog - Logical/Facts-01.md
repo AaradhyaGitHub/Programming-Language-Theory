@@ -27,3 +27,21 @@ gives(john,book,sara).
 
 Realtion and facts are not the same. Relation is the "function name"
 Facts are what we provide as arguments 
+
+is_in_love_with(romeo, olivia). // false.
+
+
+Another Example Database: 
+
+has(john, book) . 
+has(sara, paper) .
+is_valuable (silver) .
+has(john, computer) .
+
+?- has(sara, Y). // paper.
+"What does Sara have ?" --> Sara has a paper 
+
+?- has(john, Z). // book.
+entering ; after book
+
+
